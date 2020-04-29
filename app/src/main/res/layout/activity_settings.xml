@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.SettingsActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:elevation="8dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp">
+
+        <ImageView
+            android:id="@+id/return_to_main_menu_2"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="23dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/return_icon"
+            android:tint="@color/background" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/settings"
+            android:textColor="@color/background"
+            android:textSize="23sp" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/background"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <Switch
+            android:id="@+id/sound_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:text="@string/sound_effects"
+            android:textColor="@color/check_box"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/vibration_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:drawablePadding="8dp"
+            android:text="@string/vibration_effects"
+            android:textColor="@color/check_box"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/keep_screen_on_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:drawablePadding="8dp"
+            android:text="@string/keep_screen_on"
+            android:textColor="@color/check_box"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/background"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <Switch
+            android:id="@+id/duplic_highli_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:text="@string/highlight_dup"
+            android:textColor="@color/check_box"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/clear_all_data"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/background"
+        android:elevation="4dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:text="@string/clear_data"
+        android:textColor="@color/deleteAll"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/data_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+</LinearLayout>

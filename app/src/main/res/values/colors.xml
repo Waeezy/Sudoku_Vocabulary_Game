@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0373D6</color>
+    <color name="background">#FFFFFF</color>
+    <color name="colorPrimaryDark">#16191B</color>
+    <color name="colorAccent">#0373D6</color>
+    <color name="game_border">#474747</color>
+    <color name="border">#000000</color>
+    <color name="subgrid">#B3B3B3</color>
+    <color name="highlightRec">#3295F0</color>
+    <color name="conflict">#E27C7C</color>
+    <color name="hintBubble">#084479</color>
+    <color name="deleteAll">#FE3A21</color>
+    <color name="check_box">#696969</color>
+    <color name="word_bank">#E6E6E6</color>
+    <color name="help_color">#4CAF50</color>
+    <color name="help_color1">#FF9800</color>
+    <color name="help_color2">#F44336</color>
+    <color name="background_dark">#303030</color>
+    <color name="background_top_dark">#424242</color>
+    <color name="word_dark">#707070</color>
+
+</resources>

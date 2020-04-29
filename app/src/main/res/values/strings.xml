@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Sudoku Vocabulary</string>
+    <string name="languageA_to_languageB">English - Français</string>
+    <string name="manage_word_list">Manage Word List</string>
+    <string name="difficulty1">Difficulty: 1</string>
+    <string name="difficulty">Difficulty: %1$d</string>
+    <string name="language_mode">Language Mode:</string>
+    <string name="new_game">New Game</string>
+    <string name="continue_game">Continue Game</string>
+    <string name="settings">Settings</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="version">Version: 3.1.0</string>
+    <string name="about">About</string>
+    <string name="game_mode">Game Mode:</string>
+    <string name="read_mode">Reading</string>
+    <string name="listen_mode">Listening</string>
+    <string name="erase">Erase</string>
+    <string name="confirm">Confirm</string>
+    <string name="alert_title">Delete All</string>
+    <string name="alert_content">All words will be deleted from the word list.</string>
+    <string name="select_sort_order">Please select a sort order</string>
+    <string name="grid_size_4">Grid Size: 4 x 4</string>
+    <string name="grid_size_6">Grid Size: 6 x 6</string>
+    <string name="grid_size_9">Grid Size: 9 x 9</string>
+    <string name="grid_size_12">Grid Size: 12 x 12</string>
+    <string name="empty_word_list">The word list is empty.</string>
+    <string name="pause">Pause</string>
+    <string name="restart">Restart</string>
+    <string name="dark_mode">Dark</string>
+    <string name="restart_alert">All the cells you fill in will be removed.</string>
+    <string name="random_select">Randomly Select</string>
+    <string name="score_word">Score\t\t\t\t\t\t\tWord Pairs</string>
+    <string name="edit_word_pair">Edit Word Pair</string>
+    <string name="score">Score:</string>
+    <string name="language1">English:</string>
+    <string name="language2">Français:</string>
+    <string name="sound_effects">Sound Effects</string>
+    <string name="vibration_effects">Vibration Effects</string>
+    <string name="keep_screen_on">Keep Screen On</string>
+    <string name="highlight_dup">Highlight Duplicates</string>
+    <string name="clear_data">Clear Data And Cache</string>
+    <string name="clear_message">"All of this app's data will be deleted. This includes all word pairs and saved games."</string>
+    <string name="add_score">Add</string>
+    <string name="name_leaderboard">Your Name</string>
+    <string name="reading_mode">\t\tReading Mode</string>
+    <string name="reading_mode_cont">- The twist is that instead of numbers, you will be playing with pairs of words instead.\n
+        - You may press and hold any cell that contains a word to see the translation of the word as a hint.\n
+        - Be warned that in doing so, the game will keep track of how often you use a hint and interpret that as you having difficulty with that particular word.</string>
+    <string name="listening_mode">\t\tListening Mode</string>
+    <string name="listening_mode_cont">- The board will appear as a regular Japanese Sudoku puzzle, however, you will be filling in the cells with word instead of the usual numbers.\n
+        - To determine which numbers correspond to which word, press and hold a number and an audio will be played in another language to instruct you which word should be placed here.</string>
+    <string name="word_score">\t\tWord Score</string>
+    <string name="word_score_cont">- Similar to golf\'s scoring system, the higher the score, the more the game thinks you have difficulty with this word pair.</string>
+    <string name="import_csv">\t\tImport Your Own CSV</string>
+    <string name="import_csv_cont">- Make sure your textfile is saved in this format as a CSV file "wordID,english,french,score".\n
+        - For the score column, 1 should be default\n For example: 1,hello,bonjour,1\n
+        - Next is to make sure the CSV is on your phone and that you can find it using the file navigation that pops up when you want to import.</string>
+    <string name="how_to_play">How to play</string>
+    <string name="sudoku_intro">This game operates on the same basis as a regular Japanese Sudoku puzzle.</string>
+    <string name="reset_all">Reset All Scores</string>
+    <string name="reset_all_message">All scores will be reset to one</string>
+>>>>>>> app/src/main/res/values/strings.xml
+
+
+</resources>
